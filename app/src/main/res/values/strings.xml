@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WakeUp</string>
+    <string name="menu_bug">意见反馈</string>
+    <string name="menu_about_us">关于</string>
+    <string name="menu_update">检查更新</string>
+    <string name="version">当前版本是%s\n已是最新版本</string>
+    <string name="bugfeedback">感谢您的反馈建议，您的关注是我前进的动力</string>
+    <string name="home_page">闹钟</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="text_song">铃声</string>
+    <string name="text_volume">音量</string>
+    <string name="text_shake">响铃时震动</string>
+    <string name="button_delete">删除</string>
+    <string name="button_save">保存</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_ok">确定</string>
+    <string name="text_notification">显示通知</string>
+    <string name="alarm_name">闹钟标签</string>
+    <string name="text_Volume">音量</string>
+    <string name="text_Gradual">声音渐强</string>
+    <string name="hint_lable">闹钟标签</string>
+    <string name="text_snooze">小睡时间</string>
+    <string name="text_snoozetime">5分钟</string>
+    <string name="button_commitbug">发送</string>
+    <string name="string_time_left">%s响铃</string>
+    <string name="text_about">本程序目前为Alpha阶段，欢迎反馈BUG，最终会实现以下功能来帮助你起床\n1.防止自己太轻松地关闭闹钟睡过头，想要关闭闹钟，可能要花大力气或者动脑筋让自己清醒\n2.自己可以调节关闭闹钟的难度和方式，如果想早起，可以调地难一些。\n3.闹钟响起的时候无法关闭手机，也不能降低音量，总之，不完成自己设定的条件是不会停的</string>
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">欢迎使用WakeUp闹钟叫你起床</string>
+    <string name="title_about">关于</string>
+    <string name="title_setting">设置</string>
+    <string name="title_add_clock">添加闹钟</string>
+    <string name="title_feed_back">问题反馈</string>
+    <string name="string_title_email">"WakeUp闹钟Bug"</string>
+</resources>

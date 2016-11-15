@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.liwenquan.wakeup">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AddAlarmActivity"
+            android:label="@string/title_activity_set" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name=".PlayAlarmActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.liwenquan.wakeup.playalarm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetAlarmActivity" />
+        <activity
+            android:name=".ClockListActivity"
+            android:launchMode="singleTask">
+        </activity>
+        <!-- 注册系统广播接收器 -->
+        <receiver android:name=".BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity
+            android:name=".HelloActivity"
+            android:label="@string/title_activity_hello" />
+        <activity android:name=".ShakeToStopActivity" />
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
